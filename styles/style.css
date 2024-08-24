@@ -1,6 +1,18 @@
 /*body*/
 /*header*/
-
+.festejar {
+  background-image: url(../imagenes/festejar.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.texfest {
+  text-align: left;
+  color: white;
+  justify-content: left;
+  font-size: 30px;
+}
 ul {
   list-style: none;
 }
@@ -30,6 +42,7 @@ header {
   background-repeat: no-repeat;
   display: inline-block;
 }
+
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -116,7 +129,7 @@ p {
     width: 100px;
     height: 70vh;
   }
-form {
-  color: rgb(130, 222, 219);
-}
+  form {
+    color: rgb(130, 222, 219);
+  }
 }
