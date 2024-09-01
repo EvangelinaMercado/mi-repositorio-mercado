@@ -134,14 +134,37 @@ header {
   text-align: justify;
 }
 
-.grid text-cente {
-  height: 70vh;
-  background-image: url(../imagenes/galles-animalitos.jpg);
-  height: 70vh;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: inline-block;
+.container {
+  display: grid;
+  grid-template-columns: repeat(2/2fr);
+  grid-template-rows: repeat(2, 50rem);
+  justify-content: center;
+  align-content: center;
+  gap: 10px 10px;
+}
+
+.prodUno {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border: solid 1px;
+}
+
+.prodDos {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  border: solid 1px;
+}
+
+.prodTres {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  border: solid 1px;
+}
+
+.prodCuatro {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  border: solid 1px;
 }
 
 .carousel-inner {
