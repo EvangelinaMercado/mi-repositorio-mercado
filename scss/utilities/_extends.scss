@@ -1,0 +1,28 @@
+%flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 15px;
+    flex-direction: row;
+}
+
+%texto{
+    text-decoration: none;
+    list-style: none;
+}
+.galeria {
+   @extend%flex;  
+  }
+.menu {
+    @extend%texto;
+    @extend %flex;  
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 22px;    
+  }
+  ul{
+    @extend%texto;
+  }
+  a{
+    @extend%texto;
+    color: white;
+  }
