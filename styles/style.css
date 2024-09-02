@@ -1,7 +1,6 @@
 img {
   width: 300px;
   height: 300px;
-  display: inline;
 }
 
 .descripcion {
@@ -136,11 +135,12 @@ header {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(2/2fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 50rem);
   justify-content: center;
   align-content: center;
-  gap: 10px 10px;
+  padding: 15px;
+  gap: 20px 20px;
 }
 
 .prodUno {
@@ -176,6 +176,11 @@ header {
 .redSocial {
   width: 60px;
   height: auto;
+}
+
+.redes {
+  color: rgb(210, 46, 222);
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
