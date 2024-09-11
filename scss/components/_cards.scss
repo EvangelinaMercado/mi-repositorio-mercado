@@ -1,0 +1,10 @@
+.container{
+    gap: 20px;
+}
+
+.card{
+    box-shadow: 5px 5px 5px rgb(204, 123, 180);
+}
+.container .card:hover{
+    transform: translatey(-15px);
+}

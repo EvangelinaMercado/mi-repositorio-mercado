@@ -18,6 +18,12 @@
     justify-content: center;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-size: 22px;    
+    background-color: rgb(242, 157, 219);
+    background-size: auto;
+  }
+  .enlaces{   
+    color: white;
+    @extend%texto;
   }
   ul{
     @extend%texto;

@@ -85,7 +85,7 @@ p {
   flex-direction: row;
 }
 
-a, ul, .menu {
+a, ul, .enlaces, .menu {
   text-decoration: none;
   list-style: none;
 }
@@ -94,17 +94,24 @@ a, ul, .menu {
   justify-content: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 22px;
+  background-color: rgb(242, 157, 219);
+  background-size: auto;
+}
+
+.enlaces {
+  color: white;
 }
 
 a {
   color: white;
 }
 
-header {
+.index {
   background-image: url(../imagenes/globos.jpg);
-  height: 70vh;
+  height: 50vh;
   width: 100%;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   display: inline-block;
 }
@@ -147,6 +154,18 @@ header {
 .redes {
   color: rgb(210, 46, 222);
   font-size: 25px;
+}
+
+.container {
+  gap: 20px;
+}
+
+.card {
+  box-shadow: 5px 5px 5px rgb(204, 123, 180);
+}
+
+.container .card:hover {
+  transform: translatey(-15px);
 }
 
 /*# sourceMappingURL=style.css.map */
