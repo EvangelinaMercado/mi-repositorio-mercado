@@ -11,7 +11,7 @@
   }
   
 .texfest {
-    @include card(white,30px,left,italic);
+    @include card(rgb(92, 91, 94),20px,left,italic);
     justify-content: left;
     display:inline-block;
   }

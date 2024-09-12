@@ -11,8 +11,8 @@ img {
 }
 
 .texfest {
-  color: white;
-  font-size: 30px;
+  color: rgb(92, 91, 94);
+  font-size: 20px;
   text-align: left;
   font-style: italic;
   justify-content: left;
@@ -117,18 +117,18 @@ a {
 }
 
 .festejar {
-  background-image: url(../imagenes/festejar.jpg);
-  height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
+  background-image: url(https://img.freepik.com/foto-gratis/vista-superior-arreglo-pastel-delicioso_23-2148933607.jpg?size=626&ext=jpg&ga=GA1.1.1396586802.1634812801&semt=ais_hybrid);
+  height: 90vh;
+  width: auto;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
 .image2 {
   width: 100%;
-  height: 90vh;
+  height: auto;
 }
 
 .btncontacto:hover {
@@ -140,19 +140,50 @@ a {
   text-align: justify;
 }
 
+.contacto {
+  color: rgb(237, 76, 168);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ingreso {
+  color: rgb(69, 69, 69);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fondo {
+  background-image: url(https://img.freepik.com/foto-gratis/marco-ingredientes-alimentarios-hornear-sobre-fondo-pastel-ligeramente-rosa-cocinar-plano-espacio-copia-vista-superior-concepto-horneado-endecha-plana_127032-2200.jpg?size=626&ext=jpg&ga=GA1.1.1396586802.1634812801&semt=ais_hybrid);
+  height: 90vh;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .carousel-inner {
   height: auto;
   width: 400px;
   object-fit: cover;
 }
 
+#carouselExampleAutoplaying {
+  height: 660px;
+  width: 440px;
+  align-content: center;
+  object-position: center;
+}
+
 .redSocial {
-  width: 60px;
+  width: 30px;
   height: auto;
 }
 
 .redes {
-  color: rgb(210, 46, 222);
+  color: rgb(80, 78, 80);
   font-size: 25px;
 }
 
