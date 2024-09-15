@@ -5,8 +5,11 @@ img {
 
 .descripcion {
   color: rgb(232, 38, 171);
-  font-size: 35px;
+  font-size: 25px;
   text-align: center;
+  font-style: normal;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -21,10 +24,12 @@ img {
 
 h1 {
   color: darkmagenta;
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
   font-style: bold;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 h2 {
@@ -53,10 +58,20 @@ h4 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+h6 {
+  color: rgb(180, 87, 226);
+  font-size: 20px;
+  text-align: center;
+  font-style: normal;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 p {
   color: rgb(103, 7, 236);
   font-size: 26px;
-  text-align: justify;
+  text-align: center;
   font-style: italic;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: normal;
@@ -92,10 +107,11 @@ a, ul, .enlaces, .menu {
 
 .menu {
   justify-content: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 22px;
   background-color: rgb(242, 157, 219);
   background-size: auto;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .enlaces {
@@ -137,12 +153,12 @@ a {
 }
 
 .fw-bold {
-  text-align: justify;
+  text-align: center;
 }
 
 .contacto {
   color: rgb(237, 76, 168);
-  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -156,6 +172,16 @@ a {
 
 .fondo {
   background-image: url(https://img.freepik.com/foto-gratis/marco-ingredientes-alimentarios-hornear-sobre-fondo-pastel-ligeramente-rosa-cocinar-plano-espacio-copia-vista-superior-concepto-horneado-endecha-plana_127032-2200.jpg?size=626&ext=jpg&ga=GA1.1.1396586802.1634812801&semt=ais_hybrid);
+  height: 90vh;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.fondo-galeria {
+  background-image: url(https://img.freepik.com/foto-gratis/regalo-cumpleanos_23-2148124361.jpg?t=st=1726427153~exp=1726430753~hmac=648f50015b8671758b5d8bccd0dd85c4da9b0efb3231bcde41e4dd762e4020c3&w=1060);
   height: 90vh;
   width: auto;
   background-position: center;
@@ -197,6 +223,17 @@ a {
 
 .container .card:hover {
   transform: translatey(-15px);
+}
+
+.card-imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 15px;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

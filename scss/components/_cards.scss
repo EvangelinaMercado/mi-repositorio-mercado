@@ -8,3 +8,13 @@
 .container .card:hover{
     transform: translatey(-15px);
 }
+.card-imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
