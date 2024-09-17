@@ -62,7 +62,7 @@ p{
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 .titulo-produ{
-  @include card(rgb(188, 32, 236),60px,center,normal);
+  @include card(rgb(188, 32, 236),45px,center,normal);
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-style: normal;
