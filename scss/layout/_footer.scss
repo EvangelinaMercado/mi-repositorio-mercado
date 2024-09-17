@@ -4,8 +4,21 @@
     height: auto;
 }
 .redes{
-    color: rgb(80, 78, 80);
+    color: rgb(216, 17, 123);
     font-size: 25px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
+.redesfooter{
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    justify-content: start;
+    justify-items: center;    
+   
+}
+.fondo-footer{
+    background-color: rgb(246, 179, 222);
+    background-size: cover;
+}
 
