@@ -198,13 +198,9 @@ a {
 }
 
 .fondo-galeria {
-  background-image: url(https://img.freepik.com/foto-gratis/regalo-cumpleanos_23-2148124361.jpg?t=st=1726427153~exp=1726430753~hmac=648f50015b8671758b5d8bccd0dd85c4da9b0efb3231bcde41e4dd762e4020c3&w=1060);
-  height: 90vh;
-  width: auto;
-  background-position: center;
+  background-color: rgb(222, 171, 248);
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .fondo-productos {
